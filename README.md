@@ -1,6 +1,6 @@
 # Boee's Landing Page V2
 
-## Live Demo : [[Soar with Toothless]](https://boeingxd.github.io/Boees-web-V2/)
+## Live Demo : [[Soar with Toothless]](https://boeingxd.github.io/Boees-Web-V2/)
 
 ## Description
 
