@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: "Iosevka Charon", Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 80px;
+}
+
+nav, .first-section {
+    background-color: #2B1E17;
+    color: #f7f7f7;
+    padding: 5px 150px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list {
+    display: flex;
+    font-size: 1.25rem;
+    gap: 2rem;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.headline {
+    font-size: 3rem;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bolder;
+}
+
+.theworld {
+    font-style: italic;
+    font-size: 3rem;
+    text-shadow: 4px 2px 0 #e47a41;
+    letter-spacing: 0.3em;
+}
+
+.subtext {
+    font-size: 1.2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.journey {
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #e47a41;
+    color: #f7f7f7;
+    font-size: 1.25rem;
+    padding: 6px 20px;
+    border: 0.5px solid #f7f7f7;
+    border-radius: 12px;
+}
+
+#toothbtn {
+    margin-left: auto;
+}
+
+.subheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subheader-left{
+    margin-right: 60px;
+}
+
+.header-img{
+    height: 500px;
+    width: auto;
+    border-radius: 12px;
+    box-shadow: 4px 4px 0 #e47a41;
+    margin: 1.7em 0;
+}
+
+.information-section{
+    text-align: center;
+    padding-bottom: 80px;
+    margin: 0 150px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.7em;
+}
+
+.card img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: 250px;
+    border-radius: 12px;
+}
+
+#wonky {
+    object-position: 80% 0%;
+}
+
+.card p {
+    padding: 1.2em 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.quote-section {
+    background-color: #D4A017;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 180px;
+}
+
+.quotes {
+    font-size: 2.5rem;
+    margin-top: 100px;
+
+}
+
+.signoff {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.5em;
+    margin-left: auto;
+}
+
+.modal-section{
+    margin: 100px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    gap: 8em;
+    background-color: #e47a41;
+    padding: 40px 100px;
+    border-radius: 24px;
+    align-items: center;
+}
+.modal-p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#flybtn {
+    color:black;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #2B1E17;
+    color: #f7f7f7;
+    text-align: center;
+    padding: 1em 0;
+}
