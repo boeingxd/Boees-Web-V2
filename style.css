@@ -132,6 +132,11 @@ button:hover {
     cursor: pointer;
 }
 
+button:active {
+    transform: scale(0.95);
+    filter: brightness(0.85);
+}
+
 .quote-section {
     background-color: #D4A017;
     display: flex;
