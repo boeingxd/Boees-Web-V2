@@ -109,8 +109,10 @@ button{
 
 .card-container{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 1.7em;
     margin: 0 1.7em;
 }
 
